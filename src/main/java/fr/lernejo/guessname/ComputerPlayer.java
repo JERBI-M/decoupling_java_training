@@ -28,3 +28,4 @@ public class ComputerPlayer implements Player{
             max = nb_guess;
         }
     }
+}
