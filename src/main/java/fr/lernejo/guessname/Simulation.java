@@ -16,7 +16,7 @@ public class Simulation {
    private boolean nextRound() {
         long guess = player.askNextGuess();
         if (guess == numberToGuess) {
-            logger.log("won");
+            logger.log("won!");
             return true;
         }
         if (guess > numberToGuess) {
